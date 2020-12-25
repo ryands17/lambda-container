@@ -4,4 +4,6 @@ import * as cdk from '@aws-cdk/core'
 import { LambdaContainerStack } from '../lib/lambda-container-stack'
 
 const app = new cdk.App()
-new LambdaContainerStack(app, 'LambdaContainerStack')
+new LambdaContainerStack(app, 'LambdaContainerStack', {
+  env: { region: 'us-east-2' },
+})
