@@ -1,0 +1,12 @@
+{
+  "extends": ["config:base"],
+  "masterIssue": true,
+  "automerge": true,
+  "schedule": ["every 2 weeks on Thursday"],
+  "packageRules": [
+    {
+      "packagePatterns": [".*aws-cdk"],
+      "groupName": "cdk deps"
+    }
+  ]
+}
