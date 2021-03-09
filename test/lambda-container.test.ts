@@ -9,7 +9,7 @@ test('ECR repository and Lambda are created', () => {
   expectCDK(stack).to(
     haveResourceLike('AWS::ECR::Repository', {
       ImageScanningConfiguration: {
-        scanOnPush: true,
+        ScanOnPush: true,
       },
     })
   )
