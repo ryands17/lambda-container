@@ -11,16 +11,16 @@
     "cdk": "cdk"
   },
   "dependencies": {
-    "@aws-cdk/aws-ecr": "1.131.0",
-    "@aws-cdk/aws-lambda": "1.131.0",
-    "@aws-cdk/core": "1.131.0",
+    "@aws-cdk/aws-ecr": "1.134.0",
+    "@aws-cdk/aws-lambda": "1.134.0",
+    "@aws-cdk/core": "1.134.0",
     "source-map-support": "0.5.21"
   },
   "devDependencies": {
-    "@aws-cdk/assert": "1.131.0",
+    "@aws-cdk/assert": "1.134.0",
     "@types/jest": "27.0.3",
     "@types/node": "16.11.11",
-    "aws-cdk": "1.131.0",
+    "aws-cdk": "1.134.0",
     "husky": "7.0.4",
     "jest": "27.4.3",
     "lint-staged": "11.2.6",
