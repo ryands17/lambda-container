@@ -1,4 +1,4 @@
-FROM amazon/aws-lambda-nodejs:14
+FROM amazon/aws-lambda-nodejs:22
 
 COPY . .
 
